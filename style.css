@@ -126,18 +126,22 @@ nav ul li a:active {
 .content-section {
 	text-align: center;
 	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 70%;
+	margin-bottom: 5%;
 }
 
 #about {
-	background-color: #0bd4e1;
+	background-color: #500db4;
 }
 
 #projects {
-	background-color: #0be11f;
+	background-color: #0db42d;
 }
 
 #music {
-	background-color: #e10bb6;
+	background-color: #e11313;
 }
 
 .content-section i {
