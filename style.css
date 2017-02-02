@@ -125,30 +125,19 @@ nav ul li a:active {
 
 .content-section {
 	text-align: center;
-	margin-left: auto; 
-	margin-right: auto;
-	width: 70%;
+	width: 100%;
 }
 
 #about {
-	background-color: black;
-	border-style: solid;
-	border-color: white;
-	border-width: 3px 3px 0px 3px;
+	background-color: #0bd4e1;
 }
 
 #projects {
-	background-color: black;
-	border-style: solid;
-	border-color: white;
-	border-width: 3px 3px 0px 3px;
+	background-color: #0be11f;
 }
 
 #music {
-	background-color: black;
-	border-style: solid;
-	border-color: white;
-	border-width: 3px 3px 3px 3px;
+	background-color: #e10bb6;
 }
 
 .content-section i {
@@ -225,7 +214,6 @@ footer.second p {
 		right: 20px;
 		top: 60 px;
 		border: 1px solid #FFF;
-		border-radius: 2px 0 2px 2px;
 	}
 	nav:hover ul {
 		display: block;
