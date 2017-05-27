@@ -1,3 +1,5 @@
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -42,7 +44,7 @@ p {
 
 .intro {
 	height: 100vh;
-	background-image: url(bg.jpg);
+	background-image: url(img/bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -151,6 +153,9 @@ p {
 }
 
 /* Content */
+.os-animation {
+	background-color: transparent;
+}
 .content-section h2 {
 	background-color: transparent;
 	font-family: 'Raleway', sans-serif;
