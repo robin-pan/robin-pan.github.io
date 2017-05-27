@@ -102,7 +102,6 @@ p {
 /* hero image end */
 
 /* nav bar */
-
 #header {
 	background-color: black;
 	position: fixed;
@@ -123,7 +122,7 @@ p {
 	font-size: 150%;
 	display: inline-block;
 	float: left;
-	padding: 10px;
+	padding: 0 10px;
 }
 
 #header nav ul li a {
@@ -140,8 +139,18 @@ p {
 }
 
 /* nav bar */
+.content-section {
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 70%;
+	
+	padding-top: 55px;
+	color: black;
+	text-align: center;
+}
 
-/* Header Content */
+/* Content */
 .content-section h2 {
 	background-color: transparent;
 	font-family: 'Raleway', sans-serif;
@@ -149,14 +158,6 @@ p {
 	text-align: center;
 	clear: both;
 }	
-
-.content-section {
-	text-align: center;
-	margin-left: auto; 
-	margin-right: auto;
-	width: 70%;
-}
-
 .content-section a:hover {
 	color: #C3D7DF;
 }
@@ -175,10 +176,6 @@ p {
 	float:left;
 	width: 100%;
 	background-color: #C3D7DF;
-}
-
-.anchor { 
-	padding-top: 50px; 
 }
 
 /* Footer */
