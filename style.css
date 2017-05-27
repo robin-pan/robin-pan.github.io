@@ -40,27 +40,65 @@ p {
 
 /* hero image */
 
-#main {
+.intro {
 	height: 100vh;
-	margin: auto;
 	background-image: url(bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
+	
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+	background-color: transparent;
+}
+
+.content {
+	background-color: transparent;
+	margin: 0 auto;
 	text-align: center;
 }
 
-#main  h1{
-	background-color: transparent;
+.intro .inner .content h1 {
 	font-size: 300%;
-	padding-top: 20%;	
-}
-
-#main  h2{
 	background-color: transparent;
-	font-size: 200%;	
+	
 }
 
+.intro .inner .content h2 { 
+	font-size: 200%;
+	background-color: transparent;	
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.intro .inner .content a {
+	background-color: transparent;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid white 3px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #C3D7DF;
+	border: solid #C3D7DF 3px;
+	
+}
 /* hero image end */
 
 /* nav bar */
