@@ -1,58 +1,103 @@
-<!DOCTYPE html> 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Robin's Website</title>
-	<meta name="author" content="Robin Pan"/>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
-	<link href="css/font-awesome.min.css" rel="stylesheet"/>
-	<link rel="shortcut icon" href="img/logo.JPG"/>
-</head>
-<body>
-	<header>
-		<div id="header-inner">
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Robin's Website</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="logo.jpg"/>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"/> 
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+	</head>
+
+	<body>
+		<div id="header">
 			<nav>
-				<a href="#" id="menu-icon"></a>
 				<ul>
-					<li><a href="index.html" class="current">Home</a></li>
-					<li><a href="projects.html">My Projects</a></li>
-					<li><a href="music.html">My Music</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#aboutlink" class="current">About Me</a></li>
+					<li><a href="#projectslink">My Projects</a></li>
+					<li><a href="#musiclink">My Music</a></li>
+					<li><a href="#contactlink">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
-	</header>
-<!---End Header-->
-	<section class="banner">
-		<div class="banner-inner">
-			<a href="index.html"><img src="img/banner.JPG"></img></a>
+		<div id="main">
+				<h1>Robin Pan</h1>
+				<h2>University of Waterloo, Class of 2020</h2>
 		</div>
-	</section>
-<!---End Banner-->
-	<section class="content-section" id="about">
-		<td><i class="fa fa-user"></i></td>
-		<h3>About Me</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dolor ligula. Proin porta sagittis purus non consequat. Donec risus dui, posuere id nunc eget, luctus tincidunt augue. Vivamus imperdiet odio purus, nec bibendum ipsum dictum vitae. Phasellus tincidunt convallis imperdiet. Morbi lorem elit, viverra hendrerit massa nec, fermentum suscipit nisl. Vestibulum porttitor diam dolor, varius lobortis tellus consectetur interdum. Donec nibh massa, sollicitudin quis commodo sit amet, varius lacinia mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam rhoncus, massa sed aliquet rhoncus, sapien eros tincidunt sapien, nec ultrices eros dolor nec nisi.</p>
-	</section>
-	<section class="content-section" id="projects">
-		<td><i class="fa fa-code"></i></td>
-		<h3>Projects</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dolor ligula. Proin porta sagittis purus non consequat. Donec risus dui, posuere id nunc eget, luctus tincidunt augue. Vivamus imperdiet odio purus, nec bibendum ipsum dictum vitae. Phasellus tincidunt convallis imperdiet. Morbi lorem elit, viverra hendrerit massa nec, fermentum suscipit nisl. Vestibulum porttitor diam dolor, varius lobortis tellus consectetur interdum. Donec nibh massa, sollicitudin quis commodo sit amet, varius lacinia mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam rhoncus, massa sed aliquet rhoncus, sapien eros tincidunt sapien, nec ultrices eros dolor nec nisi.</p>
-	</section>
-	<section class="content-section" id="music">
-		<td><i class="fa fa-music"></i></td>
-		<h3>Music</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dolor ligula. Proin porta sagittis purus non consequat. Donec risus dui, posuere id nunc eget, luctus tincidunt augue. Vivamus imperdiet odio purus, nec bibendum ipsum dictum vitae. Phasellus tincidunt convallis imperdiet. Morbi lorem elit, viverra hendrerit massa nec, fermentum suscipit nisl. Vestibulum porttitor diam dolor, varius lobortis tellus consectetur interdum. Donec nibh massa, sollicitudin quis commodo sit amet, varius lacinia mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam rhoncus, massa sed aliquet rhoncus, sapien eros tincidunt sapien, nec ultrices eros dolor nec nisi.</p>
-	</section>
-<!---End Four-Column Section-->
+		
+		<a id="aboutlink"><h6 style="padding-top: 65px;"></h6></a>
+		<div class="content-section" id="about">
+			<td><i class="fa fa-user"></i></td>
+			<h2>About Me</h2>
+			</br>
+			<p>My name is Robin Pan and I am a second year Computer Science student at the University of Waterloo. In the past year, I have interned as a Software Designer at <a href="http://www.ciena.ca">Ciena Corporation</a> and a QA Analyst at <a href="https://www.climaxmedia.com/">Climax Media</a>. I am currently searching for internship opportunities from September 2017 onwards.</p>
+			</br>
+			<p>A copy of my resume can be found <a href="Resume.pdf">here</a></p>
+			
+			<h3>Work History</h3>
+			</br>
+			<h4>Photonics Software Designer at Ciena Corporation</h4>
+			<ul>
+				<li>Developed tool for analysis of network card logs</li>
+				<li style="margin-left:2em; list-style-type:circle;">Designed generic tool for log analysis based on requirements gathered from multiple teams</li>
+				<li style="margin-left:2em; list-style-type:circle;">Examined sections of card firmware source code to determine error conditions</li>
+				<li style="margin-left:2em; list-style-type:circle;">Implemented with simple, well-structured code using Python</li>
+				<li style="margin-left:2em; list-style-type:circle;">Created unit-test suites</li>
+				<li style="margin-left:2em; list-style-type:circle;">Wrote technical document outlining the requirements and usage of the tool</li>
+				<li>Performed maintainance tasks on network cards</li>
+			</ul>
+			</br>
+			<h4>QA Analyst at Climax Media</h4>
+			<ul>
+				<li>Developed and executed test suites for websites following the agile development process</li>
+				<li>Performed manual front-end testing on websites</li>
+				<li>Wrote test scripts using WebdriverIO with Mocha and Chai for front-end of websites</li>
+				<li>Worked with DB2 database as well as Honda API for manual website back-end testing</li>
+				<li>Wrote basic JavaScript scripts for website back-end testing</li>
+			</ul>
+			<h3>Education and Skills</h3>
+			</br>
+			<p>asdfasdfasdfasdf</p>
+			</br>
+			<h3>Personal</h3>
+			</br>
+			<p>asdfasdfasdfasdf</p>
+			</br>
+		</div>
+		
+		<a id="projectslink"><h6 style="padding-top: 65px;"></h6></a>
+		<div class="content-section" id="projects">
+			<td><i class="fa fa-code"></i></td>
+			<h2>Projects</h2>
+			</br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dolor ligula. Proin porta sagittis purus non consequat. Donec risus dui, posuere id nunc eget, luctus tincidunt augue. Vivamus imperdiet odio purus, nec bibendum ipsum dictum vitae. Phasellus tincidunt convallis imperdiet. Morbi lorem elit, viverra hendrerit massa nec, fermentum suscipit nisl. Vestibulum porttitor diam dolor, varius lobortis tellus consectetur interdum. Donec nibh massa, sollicitudin quis commodo sit amet, varius lacinia mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam rhoncus, massa sed aliquet rhoncus, sapien eros tincidunt sapien, nec ultrices eros dolor nec nisi.</p>
+		</div>
+		
+		<a id="musiclink"><h6 style="padding-top: 65px;"></h6></a>
+		<section class="content-section" id="music">
+			<td><i class="fa fa-music"></i></td>
+			<h2>Music</h2>
+			</br>
+			<p>Under construction</p>
+		</section>
+		
+		<a id="contactlink"><h6 style="padding-top: 65px;"></h6></a>
+		<section class="content-section" id="contact">
+			<td><i class="fa fa-envelope-o"></i></td>
+			<h2>Contact</h2>
+			</br>
+			<p>Under construction</p>
+		</section>
+	</body>
 	<footer>
 		<ul class="social">
-			<li><a href="facebook.com" target="_blank"><i class="fa fa-github"></i></a></li>
-			<li><a href="twitter.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-			<li><a href="youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-<!---End social media-->
-	<footer class="second">
-		<p>&copy Robin Pan 2017</p>
+			<li><a href="https://"><i class="fa fa-github"></i></a></li>
+			<li><a href="https://twitter.com"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://youtube.com"><i class="fa fa-youtube"></i></a></li>
+		</ul>
+		&copy Robin Pan 2017
 	</footer>
-</body>
 </html>

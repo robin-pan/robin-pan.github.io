@@ -1,19 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
-
 * {
-margin: 0;
-padding: 0;
-border: 0;
-}
-
-body {
-	background: #6991AC;
-	color: #67727A;
-	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: black;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2 {
-	font-size: 250%;
+	font-size: 270%;
 	font-weight: 700;
 	text-align: center;
 	padding-top: 2%;
@@ -24,130 +19,118 @@ h3 {
 	line-height: 155%;
 	padding: 1% 0;
 	font-weight: 400;
+	text-align: left;
+	padding: 3% 3% 0 3%;
+}
+
+h4 {
+	font-size: 155%;
+	line-height: 125%;
+	font-weight: 400;
+	text-align: left;
+	padding: 0 3%;
 }
 
 p {
-	color: #F0F0F0;
-	font-size: 160%;
+	font-size: 100%;
 	line-height: 150%;
-	padding: 3%;
 	text-align: justify;
-	font-family: 'Alegreya Sans', sans-serif;
+	padding: 0 3%;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	width: auto;
-	margin: -4px;
+/* hero image */
+
+#main {
+	height: 100vh;
+	margin: auto;
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	text-align: center;
 }
 
-header {
-	background-color: #6991AC;
+#main  h1{
+	background-color: transparent;
+	font-size: 300%;
+	padding-top: 20%;	
+}
+
+#main  h2{
+	background-color: transparent;
+	font-size: 200%;	
+}
+
+/* hero image end */
+
+/* nav bar */
+
+#header {
+	background-color: black;
+	position: fixed;
+	z-index: 999;
 	width: 100%;
-	height: 86px;
 }
 
-#header-inner {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-#logo {
-	margin: 20px;
-	float: left;
-	width: 200px;
-	height: 60px;
-	background: url(img/logo.jpg) no-repeat center;
-}
-/*--- Start Navigation --*/
-nav {
+#header nav {
 	float: right;
-	padding: 25px 20px 0 0;
+	padding: 20px;
 }
-
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: url(img/nav.png) center;
-}
-
-#hover#menu-icon {
-	border-radius: 4px 4px 0 0;
-}
-
-ul {
+#header ul {
 	list-style-type: none;
 }
 
-nav ul li {
-	font-family: 'Alegreya Sans', sans-serif;
+#header nav ul li {
+	font-family: 'Raleway', sans-serif;
 	font-size: 150%;
 	display: inline-block;
 	float: left;
 	padding: 10px;
 }
 
-nav ul li a {
-	color: #F5F5F5;
+#header nav ul li a {
 	text-decoration: none;
 	padding: 5px;
 }
 
-nav ul li a:hover {
+#header nav ul li a:hover {
 	color: #C3D7DF;
 }
 
-nav ul li a:active {
-	color: white;
-}
-
-.current{
-	padding: 5px;
-	border: solid 2px #C3D7DF;
-}
-
-/*--- End Navigation --*/
-.banner {
+#header span {
 	width: 100%;
-	background-color: #6991AC;
 }
 
-.banner-inner {
-	max-width:1100px;
-	margin: 0 auto;
-}
+/* nav bar */
+
+/* Header Content */
+.content-section h2 {
+	background-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	clear: both;
+}	
 
 .content-section {
 	text-align: center;
 	margin-left: auto; 
 	margin-right: auto;
 	width: 70%;
-	color: #F0F0F0;
 }
 
-#about {
-	background-color: #7f7e7d;
+.content-section a:hover {
+	color: #C3D7DF;
 }
-
-#projects {
-	background-color: #ec9446;
-}
-
-#music {
-	background-color: #4da255;
-}
-
-#contact {
-	background-color: #7f7e7d;
-}
-
 
 .content-section i {
-	color: #F0F0F0;
 	font-size: 500%;
 	padding: 2% 0 0 0;
+}
+
+.content-section ul {
+	text-align: left;
+	padding-left: 7%;
 }
 
 .inner-wrapper {
@@ -156,78 +139,37 @@ nav ul li a:active {
 	background-color: #C3D7DF;
 }
 
-/*---Start Footer---*/
+.anchor { 
+	padding-top: 50px; 
+}
+
+/* Footer */
 footer {
-	background-color: #6991AC;
+	background-color: black;
 	width: 100%;
+	
+	text-align: center;
+	font-size: 75%;
+	
+	padding-bottom: 3em;
 }
 
 .social {
 	list-style-type: none;
 	text-align: center;
+	padding: 0;
 }
 
 .social li {
 	display: inline;
 }
 
-.social i {
+.social .fa {
 	font-size: 460%;
-	margin: 1%;
-	padding: 5% 5% 5% 4%;
-	color: #C3D7DF;
+	margin: 0% 1%;
+	padding: 1%;
 }
 
-.social i:hover {
-	color: #F5F5F5;
-}
-
-footer.second {
-	max-height: 55px;
-	margin: 0;
-}
-
-footer.second p {
-	padding: 5px 0 9px 0px;
-	text-align: center;
-}
-/*---Media---*/
-@media screen and (max-width: 768px) {
-	h2 {
-		font-size: 150%;
-	}
-	h3 {
-		font-size: 125%;
-	}
-	p {
-		font-size: 120%;
-	}
-	header {
-		position: absolute;
-	}
-	
-	#menu-icon {
-		display: inline-block;
-	}
-	nav ul, nav:active ul {
-		display: none;
-		z-index: 1000;
-		position: absolute;
-		padding: 20px;
-		background: black;
-		right: 20px;
-		top: 60 px;
-		border: 1px solid #FFF;
-	}
-	nav:hover ul {
-		display: block;
-	}
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-	}
-	.banner {
-		padding-top: 86px;
-	}
+.social .fa:hover {
+	color: grey;
 }
