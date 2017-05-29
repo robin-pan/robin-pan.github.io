@@ -6,28 +6,28 @@
 	<link rel="shortcut icon" href="img/logo.jpg"/>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"> 
 	
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-	<script src="js/waypoints.js" type="text/javascript"></script>
-	<script src="js/scroll.js" type="text/javascript"></script>
-	
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
-	<link href="css/animate.css" rel="stylesheet"/	
+	<link href="css/animate.css" rel="stylesheet"/>
 </head>
 	<body>
-		<div id="header">
+		<section id="header">
 			<nav>
-				<ul>
-					<li><a href="#about" class="current">About Me</a></li>
-					<li><a href="#projects">My Projects</a></li>
-					<li><a href="#music">My Music</a></li>
-					<li><a href="#contact">Contact</a></li>
+				<a href="#" class="hamburger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</a>
+				<ul class="menu">
+					<li><a href="#about" class="menuitem">About Me</a></li>
+					<li><a href="#projects" class="menuitem">My Projects</a></li>
+					<li><a href="#music" class="menuitem">My Music</a></li>
+					<li><a href="#contact" class="menuitem">Contact</a></li>
 				</ul>
 			</nav>
-		</div>
-		<div class="intro">
+		</section>
+		<section class="intro">
 			<div class="inner">
 				<div class="content">
 					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
@@ -41,9 +41,9 @@
 					</section>
 				</div>
 			</div>
-		</div>
+		</section>
 		
-		<div class="content-section" id="about">
+		<section class="content-section" id="about">
 			<td><i class="fa fa-user"></i></td>
 			<h2>About Me</h2>
 			</br>
@@ -97,9 +97,9 @@
 			</br>
 			<p>Some of my other pastimes include swimming, table tennis, and video games.
 			</br>
-		</div>
+		</section>
 		
-		<div class="content-section" id="projects">
+		<section class="content-section" id="projects">
 			<td><i class="fa fa-code"></i></td>
 			<h2>Projects</h2>
 			</br>
@@ -147,7 +147,7 @@
 			</br>
 			<p><a href="https://github.com/robin-pan/robin-pan.github.io">GitHub</a></p>
 			</br>
-		</div>
+		</section>
 		
 		<section class="content-section" id="music">
 			<td><i class="fa fa-music"></i></td>
@@ -188,6 +188,12 @@
 			</br>
 			</br>
 		</section>
+		
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+		<script src="js/waypoints.js" type="text/javascript"></script>
+		<script src="js/scroll.js" type="text/javascript"></script>
+		<script src="js/dropdown.js"></script>
 	</body>
 	<footer>
 		<ul class="social">

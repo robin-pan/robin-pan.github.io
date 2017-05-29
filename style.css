@@ -223,3 +223,35 @@ footer {
 .social .fa:hover {
 	color: grey;
 }
+
+@media only screen and (max-width: 605px) {
+  
+	.hamburger {
+		display: block;
+	}
+
+	.line {
+		border-bottom: 4px solid white;
+		width: 35px;
+		margin-bottom: 6px;
+	}
+
+	.line:last-child {
+		margin-bottom: 0;
+	}
+
+	nav li {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.menu {
+		height: 0;
+		overflow: hidden;
+		transition: height 0.3s linear;
+	}
+
+	.slide-down {
+		height: 200px;
+	}
+}
