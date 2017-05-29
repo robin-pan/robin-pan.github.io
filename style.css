@@ -1,5 +1,4 @@
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +6,11 @@
 	background-color: black;
 	color: white;
 	font-family: 'Raleway', sans-serif;
+}
+
+hr {
+	background-color: grey;
+	height: 1px;
 }
 
 h2 {
@@ -34,7 +38,7 @@ h4 {
 }
 
 p {
-	font-size: 100%;
+	font-size: 110%;
 	line-height: 150%;
 	text-align: justify;
 	padding: 0 3%;
@@ -159,13 +163,15 @@ p {
 	background-color: transparent;
 	z-index = -4;
 }
+
 .content-section h2 {
 	background-color: transparent;
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	text-align: center;
 	clear: both;
-}	
+}
+
 .content-section a:hover {
 	color: #C3D7DF;
 }
@@ -178,6 +184,7 @@ p {
 .content-section ul {
 	text-align: left;
 	padding-left: 7%;
+	font-size: 110%;
 }
 
 .inner-wrapper {
