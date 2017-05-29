@@ -7,6 +7,5 @@ $('.hamburger').on('click', function(e) {
 
 $('.menuitem').on('click', function(e) {
   e.preventDefault();
-  
   $('.menu').toggleClass('slide-down');
 });

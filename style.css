@@ -224,6 +224,16 @@ footer {
 	color: grey;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    display:block;
+    width:100%;
+}
+
 @media only screen and (max-width: 605px) {
   
 	.hamburger {
@@ -253,5 +263,9 @@ footer {
 
 	.slide-down {
 		height: 200px;
+	}
+	
+	nav {
+		position: fixed;
 	}
 }
