@@ -164,11 +164,6 @@ p {
 }
 
 /* Content */
-.os-animation {
-	background-color: transparent;
-	z-index = -4;
-}
-
 .content-section h2 {
 	background-color: transparent;
 	font-family: 'Raleway', sans-serif;
