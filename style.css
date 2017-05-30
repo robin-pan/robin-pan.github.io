@@ -303,9 +303,11 @@ img {
 		width: 100%;
 	}
 	
+	.content-section {
+		width: 90%;
+	}
+	
 	.content-section ul {
-		text-align: left;
-		padding-left: 18%;
-		font-size: 110%;
+		padding-left: 15%;
 	}
 }
