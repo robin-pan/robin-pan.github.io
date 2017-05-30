@@ -230,7 +230,7 @@ footer {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -255,9 +255,18 @@ img {
 		padding-left: 11%;
 		font-size: 110%;
 	}
+	
+	img {
+		width: 75%;
+		height: auto;
+	}
 }
 
 @media only screen and (max-width: 605px) {
+	img {
+		width: 100%;
+		height: auto;
+	}
   
 	.hamburger {
 		display: block;
