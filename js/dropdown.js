@@ -9,3 +9,14 @@ $('.menuitem').on('click', function(e) {
   e.preventDefault();
   $('.menu').toggleClass('slide-down');
 });
+
+$('.menuitem').on('click', function(e) {
+  e.preventDefault();
+  $('.menu').toggleClass('slide-down');
+});
+
+$(window).resize(function() {
+	if ($(window).width() > 605) {
+		$('.menu').removeClass('slide-down');
+	}
+});
