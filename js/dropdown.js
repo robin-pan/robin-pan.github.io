@@ -17,12 +17,3 @@ $(window).resize(function() {
 		$('.hamburger').removeClass('change');
 	}
 });
-
-$(window).on("navigate", function (event, data) {
-	var direction = data.state.direction;
-	
-	if (direction == 'back' && $('.hamburger').hasClass('change')) {
-		$('.menu').removeClass('slide-down');
-		$('.hamburger').removeClass('change');
-	}
-});
