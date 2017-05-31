@@ -255,6 +255,11 @@ img {
 		width: 75%;
 		height: auto;
 	}
+	
+	#header nav {
+		float: right;
+		padding: 5px;
+	}
 }
 
 @media only screen and (max-width: 605px) {
@@ -326,11 +331,6 @@ img {
 	#header nav ul li {
 		text-decoration: none;
 		width: 100%;
-	}
-	
-	#header nav {
-		float: right;
-		padding: 5px;
 	}
 	
 	.content-section {
