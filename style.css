@@ -258,7 +258,8 @@ img {
 	
 	#header nav {
 		float: right;
-		padding: 5px;
+		padding: 10px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -320,6 +321,7 @@ img {
 	#header nav {
 		position: fixed;
 		padding: 13px;
+		padding-bottom: 0px;
 	}
 	
 	#header nav ul li a {
