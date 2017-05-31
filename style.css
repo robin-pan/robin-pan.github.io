@@ -117,7 +117,7 @@ p {
 
 #header nav {
 	float: right;
-	padding: 10px 5px;
+	padding: 20px;
 }
 #header ul {
 	list-style-type: none;
@@ -326,6 +326,11 @@ img {
 	#header nav ul li {
 		text-decoration: none;
 		width: 100%;
+	}
+	
+	#header nav {
+		float: right;
+		padding: 5px;
 	}
 	
 	.content-section {
