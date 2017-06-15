@@ -12,7 +12,7 @@ $('.menuitem').on('click', function(e) {
 });
 
 $(window).resize(function() {
-	if ($(window).width() > 605) {
+	if ($(window).width() < 605) {
 		$('.menu').removeClass('slide-down');
 		$('.hamburger').removeClass('change');
 	}
