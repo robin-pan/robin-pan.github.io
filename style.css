@@ -224,7 +224,7 @@ footer {
 }
 
 img {
-    width: 50%;
+    width: 30%;
     height: auto;
 }
 
@@ -263,7 +263,7 @@ img {
 	}
 	
 	img {
-		width: 75%;
+		width: 50%;
 		height: auto;
 	}
 	
@@ -276,7 +276,7 @@ img {
 
 @media only screen and (max-width: 605px) {
 	img {
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
   
