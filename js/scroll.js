@@ -1,4 +1,6 @@
 $(document).ready(function(){ 
+	$(this).scrollTop(0);
+
 	$('a[href^="#"]').on('click',function(e) { 
 		e.preventDefault(); 
 		
