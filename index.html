@@ -44,19 +44,29 @@
 				<td><i class="fa fa-user"></i></td>
 				<h2>About Me</h2>
 				<p>
-					My name is Robin Pan and I am a third year Computer Science student at the University of Waterloo. In the past year, I have interned as a 
-					full-stack developer at <a href="https://www.mytime.com/">MyTime</a> and also at <a href="http://kotharigroup.com/mercury_mortgages" target="_blank">Mercury Mortgages</a>. 
+					My name is Robin Pan and I am a fourth year Computer Science student at the University of Waterloo. In the past year, I have interned as a 
+					full-stack developer at <a href="https://www.minted.com/" target="_blank">Minted</a> and also at <a href="https://www.mytime.com/">MyTime</a>. 
 					I am currently searching for an internship for the winter of 2019.
 				</p>
-				<p>A copy of my resume can be found <a href="content/Resume3B.pdf" target="_blank">here</a></p>
+				<p>A copy of my resume can be found <a href="content/Resume4A.pdf" target="_blank">here</a></p>
 				
 				<hr>
 				
 				<h3>Work History</h3>
+				<h4>Full-Stack Developer at Minted (Jan 2019 - April 2019)</h4>
+				<ul>
+					<li>Rebuilt comment thread feature to improve UX and performance</li>
+					<li style="margin-left:2em; list-style-type:circle;">Implemented REST API endpoints for feature using Python and Bottle</li>
+					<li style="margin-left:2em; list-style-type:circle;">Added interface to back-end with ES6 and GraphQL</li>
+					<li style="margin-left:2em; list-style-type:circle;">Built various front-end components using React and Redux</li>
+					<li style="margin-left:2em; list-style-type:circle;">Introduced tagging with email notification services via Kafka pipelines</li>
+					<li style="margin-left:2em; list-style-type:circle;">Used Protobufs as a communication medium across different servers</li>
+					<li>Added token checking for the Facebook login, preventing CSRF attacks</li>
+				</ul>
 				<h4>Full-Stack Developer at MyTime (May 2018 - August 2018)</h4>
 				<ul>
 					<li>Developed full-stack for MyTime’s scheduling software using AngularJS, JQuery, Ruby on Rails and MySQL</li>
-					<li>Worked with Twilio API on SMS forwarding feature</li>
+					<li>Worked with Twilio API to improve functionality of SMS messaging feature</li>
 					<li style="margin-left:2em; list-style-type:circle;">Optimized phone number lookups, reducing cost by 40%</li>
 					<li style="margin-left:2em; list-style-type:circle;">Implemented SMS messaging to worldwide phone numbers</li>
 					<li>Implemented tracking for SMS usage and monthly overage charges</li>
@@ -65,8 +75,8 @@
 				</ul>
 				<h4>Full-Stack Developer at Mercury Mortgages (September 2017 - December 2017)</h4>
 				<ul>
-					<li>Designed and developed features of web-based mortgage lending platform using AngularJS, Bootstrap, JQuery, Laravel PHP and PostgreSQL</li>
-					<li>Implemented various security features</li>
+					<li>Built features of web-based mortgage lending platform using AngularJS, Bootstrap, JQuery, Laravel PHP and PostgreSQL</li>
+					<li>Designed and implemented various features to increase website security</li>
 					<li style="margin-left:2em; list-style-type:circle;">Introduced user roles feature to control website access</li>
 					<li style="margin-left:2em; list-style-type:circle;">Limited failed password attempts by IP and email combination</li>
 					<li style="margin-left:2em; list-style-type:circle;">Added password strength enforcement</li>
@@ -97,12 +107,12 @@
 				
 				<h3>Education and Skills</h3>
 				<p>
-					I am beginning the third year of Waterloo's Bachelor of Computer Science program. In my studies, I have formally studied data structures, algorithm design, object-oriented programming, 
-					version control, scripting, compiler design, computer architecture and discrete mathematics.
+					I am beginning the fourth year of Waterloo's Bachelor of Computer Science program. In my studies, I have formally studied data structures, algorithm design, object-oriented programming, 
+					scripting, compiler design, operating systems, networking, concurrent and parallel progamming, relational databases, AI, machine learning, computer architecture and discrete mathematics.
 				</p>
 				<p>
-					I am proficient with C and C++, as I used them often in my computer science courses and for personal projects. I have worked closely with various web development languages and frameworks 
-					including Laravel PHP, Ruby on Rails, AnguarJS, JQuery and Bootstrap during some of my internships as well as for personal projects.
+					I am proficient with Python and C++, as I used them often in my computer science courses and for personal projects. I have worked closely with various web languages and technologies, 
+					including ES6, Ruby on Rails, SQL, GraphQL, ReactJS, AnguarJS and PHP during some of my internships as well as for personal projects.
 				</p>
 				</br>
 				<hr>
@@ -120,13 +130,40 @@
 			
 			</br>
 			</br>
-			<hr/ style="height: 5px;">
+			<hr style="height: 5px;" />
 			
 			<div class="content-section" id="projects">
 				<td><i class="fa fa-code"></i></td>
 				<h2>Projects</h2>
 				<p>This section of the website is dedicated to projects which I have worked on during my free time.</p> 
 				<p>GitHub: <a href="https://github.com/robin-pan">robin-pan</a>.</p>
+				
+				</br>
+				<hr>
+
+				<h3>PyScribe</h3>
+				<p>
+					Uses genetic algorithm along with custom cost function to generate fingerings for digital sheet music. This is still a work in progress, I am trying to decrease the calculation time, consistency, 
+					as well as printing the assignments on the sheets. For now, this can only be used for small excerpts of music.
+				</p>
+				<br/>
+				<p>Note that fingers are zero-indexed:</p>
+				<p>
+					Major Scale
+					<br/>
+					<img class="music" src="img/major_scale.PNG" alt="calc"></img>
+				</p>
+				<p>
+					Arpeggio
+					<br/>
+					<img class="music" src="img/arpeggio.PNG" alt="calc"></img>
+				</p>
+				<p>
+					Polyphonic
+					<br/>
+					<img class="music" src="img/polyphonic.PNG" alt="calc"></img>
+				</p>
+				<p><a href="https://github.com/robin-pan/PyScribe">GitHub</a></p>
 				
 				</br>
 				<hr>
